@@ -1,0 +1,15 @@
+h1{ 
+    border: 0.1em darkblue dashed;
+    border-radius: 10px;
+
+
+}
+
+p{
+    border-bottom: 3px solid rgb(231, 86, 78);
+    border-top: 4px solid rgb(65, 195, 204);
+    border-left: 2px solid rgb(65, 195, 204);
+    border-right: 5px solid rgb(231, 86, 78);
+    border-radius: 10px;
+
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(39, 38, 38);
+}
+
+h3 {
+    color: rgb(170, 10, 10);
+}
+#p1{
+    color: hsl(9, 84%, 64%);
+}
+
+#p2{
+    color: hsl(240, 44%, 44%);
+}
+
+#p3 {
+    color: hsl(290, 67%, 62%);
+}
