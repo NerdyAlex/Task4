@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+<body>
+
+    <main>
+        <h1>CatPhotoApp</h1>
+        <section>
+            <h2>Cat Photos</h2>
+            <h4>See more <a href="https://en.wikipedia.org/wiki/Cat" target="_blank">cat</a> photos in our gallery.</h3>
+            <a href="https://en.wikipedia.org/wiki/Cat" target="_blank"><img src="stuffs/catpic.png" alt=" a cute cat image"></a>
+        </section>
+
+        <section>
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <img src="stuffs/lasagna.webp" alt="lasagna">
+            <br>
+            <caption>Cat love Lasagna</caption>
+
+        </section>
+        <section>
+            
+            <h3>Things cats love:</h3>
+            <ol>
+                <li>bath</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+            <img src="stuffs/cats.webp" alt="Cute cats">
+            <br>
+            <caption>Cats <figcaption>hate</figcaption> other cats.</caption>
+        
+        </section>
+        <footer>
+            <h2>Cat Form</h2>
+            <fieldset>
+                <legend>What type of cat do you have?</legend>  
+                <label>
+                    <input id ="indooor" name="out/indoor" value="indooor" type="radio" checked> Indoor
+                </label>
+                <label>
+                    <input id="outdoor" name="out/indoor" value="outdoor" type="radio"> Outdoor
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What's your cat personality</legend>
+                <input id="lazy" name="personality" value="lazy" type="checkbox" checked><label for="lazy">Lazy</label>
+                <input id="loving" name="personality" value="loving" type="checkbox"><label for="lazy">Loving</label>
+                <input id="energetic" name="personality" value="energetic" type="checkbox"><label for="lazy">Energetic</label>
+            </fieldset>
+            <form action="index.php" method="POST">
+                <label for="caturl">Cat Url</label>
+                <input type="text" id="caturl" placeholder="Upload a cat photo">
+            </form>
+    
+        </footer>
+    </main>
+
+</body>
+</html>
