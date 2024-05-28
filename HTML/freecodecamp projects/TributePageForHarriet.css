@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    background: #fdffdf;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 10px;
+
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+img {
+    text-align: center;
+}
+
+hr {
+    border-size: 20px;
+    width: auto;
+
+
+}
+
+ul>li {
+    text-align: justify;
+    padding: 15px;
+}
+
+#last-color {
+    color: #383835;
+}
+
+a:hover {
+    color: pink;
+}
