@@ -6,6 +6,13 @@ body {
     background: #fdffdf;
 }
 
+.adjustify {
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    
+}
+
 #image {
     max-width: 100%;
     height: auto;
