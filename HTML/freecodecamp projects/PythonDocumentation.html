@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <nav id="navbar">
+            <header>PY Documentation</header>
+            
+                <a class="nav-link" href="#Python_For_Dummies">Python For Dummies</a>
+                <a class="nav-link" href="#Variables">Variables</a>
+                <a class="nav-link" href="#Data_Types">Data Types</a>
+                <a class="nav-link" href="#Conditional_Statements">Conditional Statements</a>
+                <a class="nav-link" href="#Functions">Functions</a>
+                <a class="nav-link" href="#Summary">Summary</a>
+            
+        </nav>
+    </div>
+    <div>
+        <main id='main-doc'>
+            
+
+            <section class="main-section" id="Python_For_Dummies">
+                <header>Python For Dummies</header>
+                <p>Python is a popular, high-level programming language known for its simplicity and readability. Created by Guido van Rossum
+                and first released in 1991, it emphasizes code readability and allows programmers to express concepts in fewer lines of
+                code. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.</p>
+                
+                <p>Its extensive standard library and supportive community make it ideal for various applications, from web development to
+                data science. Python's syntax is straightforward, making it an excellent choice for beginners while still powerful
+                enough for experienced developers.</p>
+                
+                <p>It is widely used in industries like finance, healthcare, and technology. Python's versatility and ease of use have made
+                it one of the most popular programming languages in the world.
+    </p>
+
+            </section>
+
+            <section id="Hello_World!!" class="main-section">
+                <header>Hello World!!</header>
+                <p>To get started with writing Python, open your favorite text editor and write your first "Hello world" Python code:</p>
+                <pre><p><code>    print("Hello World!!")</code></p></pre>
+                <p>Yes It's that simple even your GrandMa can do it in her sleep</p>
+            </section>
+
+            <section id="Variables" class="main-section">
+                <header>Variables</header>
+                <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform
+                to certain  rules</p>            
+                <p>1. Can only contain alphanumeric characters and underscores: This means they can include letters (A-Z, a-z), numbers (0-9),
+                and underscores (_), but no special characters or spaces</p>
+                <p>2. Case-sensitive: Variable names are case-sensitive, so myVariable and myvariable are considered different variables.</p>
+                <p>To declare a Variable we:</p>
+                <pre><p><code>    variable = "My name is Lexy"</code></p></pre>
+                <p>Simple!!</p>
+            </section>
+
+            <section id="Data_Types" class="main-section">
+                <header>Data Types</header>
+                <p>There are Some data types to note:</p>
+                <ul>
+                    <li><b>Interger.</b> <code>9, 2, 0</code></li>
+                    <li><b>String.</b> <code>"Hello", "SpongBob"</code></li>
+                    <li><b>Boolean.</b> <code>True and False</code>.</li>
+                    <li><b>Tuple.</b> <code>(1, 2, 3)</code>.</li>
+                    <li><b>List.</b> <code>[1, 2, 3]</code></li>
+                    <li><b>Dictionary.</b> <code>{'key': 'value'}</code></li>
+                    <p>Although these data types might seem limited, they enable you to perform a wide range of useful functions in your
+                    applications. Objects and functions are the other fundamental elements in the language.</p>
+                </ul>
+            </section>
+
+            <section id="Conditional_Statements" class="main-section">
+                <header>Conditional Statements</header>
+                <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a
+                statement if the condition is false</p>
+                <p>Let's create a simple python project:</p>
+                    <pre><code><p>    temp = int(input("What is your temperature"))
+    if temp >= 37:
+        print("You have a fever")
+    else:
+        print("You don't have a fever")</p></code></pre>
+        <p>Let's take it step by step</p>
+                <ul>           
+                    <li><code>temp</code> accepts a integer <code>int</code> which is the user temperature.</li>
+                    <li><code>if</code> the user input is greater than or equal to 37, we <code>print</code> <code>You have a fever</code> </li>
+
+                    <li><code>else</code> it well just<code>print</code>s <code>You don't have a fever</code></li>
+                </ul>
+                <p>Conditional statement are fun to use. There are some more like <code>while</code>, <code>elif</code> etc.</p>
+            </section>
+
+            <section id="Functions" class="main-section">
+                <header>Functions</header>
+                <p>Finally, last but not the least sadly Functions <code>def</code></p>
+                <p>Let's learn how to declare a function:</p>
+                <pre><code><p>    def greet_me():
+        name= input("enter you name: ")
+        print("Hello " + name)
+        
+    greet_me()</p></code></pre>
+
+                <p>Again let me explain:</p>
+                <li>I defined a <code>def</code> function called <code>greet_me()</code></li>
+                <li>I asked the user for <code>input</code> as their <code>name</code></li>
+                <li>I had to print out the Greeting by put it in <code>print</code></li>
+                <li>Lastly I had to call our <code>greet_me()</code> <code>def</code> function</li>
+                <p>When you run this code:</p>
+                <p>A greeting message with the user's name is printed to the screen.</p>
+            </section>
+
+            <section id="Summary" class="main-section">
+                <header>Summary</header>
+                <p>I know this Documentation doesn't really cover the whole Python Language. I really didn't think much of you guys when I was building this project. This is a freecodecamp project.I'm so sorry not,But I would be more than happy to link you up to a 10 hour-long Python course on Youtube. Just <a href="https://www.youtube.com/watch?v=qwAFL1597eM">Click here</a>. You are Welcome. Byeee</p>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+</html>
