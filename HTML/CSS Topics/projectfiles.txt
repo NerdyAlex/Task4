@@ -1,0 +1,68 @@
+User Story: Responsive Photo Gallery
+Objective:
+Create a responsive photo gallery using Flexbox that showcases a collection of images. The gallery should adjust to different screen sizes, ensuring the images are displayed in a visually appealing grid.
+
+User Story:
+As a user, I want to view a photo gallery on my device, where images are organized in a grid layout. The gallery should be responsive, so it looks good on various screen sizes including mobile, tablet, and desktop. I want to see images align nicely with appropriate spacing between them, and when I resize my browser or view the gallery on different devices, the images should rearrange themselves to fit the screen.
+
+Requirements:
+Header:
+
+A simple header with the title "Photo Gallery".
+Gallery Container:
+
+A container that holds all the images.
+Gallery Items:
+
+Each image should be displayed as a gallery item.
+Images should be uniform in size and aspect ratio.
+The layout should adjust based on the screen size:
+On large screens, display 4 images per row.
+On medium screens, display 2 images per row.
+On small screens, display 1 image per row.
+Styling:
+
+Add padding and margin to the images for spacing.
+Use Flexbox properties to create the grid layout.
+Project Steps:
+1. Set up the Project Structure
+Create a new project directory.
+Inside this directory, create an index.html file and a styles.css file.
+Add a folder for images and place your photos in this folder.
+2. Build the HTML Structure
+Create a simple HTML document.
+Add a header section with the title "Photo Gallery".
+Create a container div for the gallery.
+Add several divs within this container, each containing an image.
+3. Apply Basic Styles
+Reset margins and padding for all elements.
+Set a background color and padding for the header.
+Style the gallery container to use Flexbox.
+Ensure the gallery items have padding, margin, and a set size to create a grid effect.
+4. Implement Flexbox Layout
+Use Flexbox properties to arrange the gallery items in rows.
+Apply flex-wrap: wrap to ensure items wrap onto new lines if they don't fit in one row.
+Use justify-content: center to center the gallery items within the container.
+5. Add Responsive Design
+Use media queries to adjust the number of items per row based on the screen width.
+On large screens, display 4 items per row.
+On medium screens, display 2 items per row.
+On small screens, display 1 item per row.
+Testing
+Open the index.html file in a web browser.
+Resize the browser window to observe how the gallery adjusts to different screen sizes.
+Ensure the gallery looks good on various devices like mobile phones, tablets, and desktops.
+Summary
+By completing this project, you will practice:
+
+Using Flexbox to create a responsive layout.
+Implementing media queries for different screen sizes.
+Applying basic CSS styling for a visually appealing photo gallery.
+This project will help you reinforce your understanding of Flexbox and responsive web design principles.
+
+
+
+
+
+
+

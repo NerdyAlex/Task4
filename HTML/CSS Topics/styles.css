@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+  
+background-color: rgb(195, 218, 210);
+padding: 10px;
+height: 600px;
+margin: 50px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/* flex-wrap: wrap;
+align-content: flex-start; */
+}
+
+.item{
+    background-color: rgb(231, 9, 9);
+    color: aliceblue;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+ 
+}
+.items-1{
+flex-grow: 1;
+}
+.items-2{
+
+}
+.items-3{
+
+}
+.items-4{
+
+}
+.items-5{
+
+}
