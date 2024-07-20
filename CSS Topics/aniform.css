@@ -1,0 +1,44 @@
+body{
+    background-color: hsl(120, 58%, 70%);
+}
+.boxes{
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.box2{
+    animation: rotate 1s linear infinite;
+    transform-origin: -40px 0;
+}
+
+.box3 {
+    animation: rotate 1s linear infinite;
+    transform-origin: 40px 0;
+}
+.box4 {
+    animation: rotate 1s linear infinite;
+    transform-origin: 0px -40px;
+}
+.box5 {
+    animation: rotate 1s linear infinite;
+    transform-origin: 0 40px;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
